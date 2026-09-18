@@ -1,0 +1,81 @@
+# Registro de comercios con sucursal en Santa Fe capital.
+#
+# Este archivo decide que ve la app. Las promos son nacionales; esta lista es lo
+# que las vuelve relevantes para tu zona. Lo que no este aca, no aparece.
+#
+# Editalo a mano cuando quieras. Cada entrada acepta:
+#   nombre    como se muestra en la app
+#   alias     variantes con las que la promo puede venir escrita (opcional)
+#   confirmado  true si sabes que existe la sucursal; false = a verificar
+#
+# Los nombres se comparan sin acentos, sin mayusculas y sin las palabras
+# "supermercado", "super", "hipermercado" y "mercado", asi que no hace falta
+# cargar todas las variantes de escritura.
+
+comercios:
+  # --- Cadenas locales de Santa Fe ---
+  - nombre: Alvear Supermercados
+    alias: [alvear]
+    confirmado: true
+  - nombre: Kilbel
+    alias: [super kilbel]
+    confirmado: true
+  - nombre: La Gallega
+    confirmado: true
+  - nombre: Super El Túnel
+    alias: [el tunel, super el túnel]
+    confirmado: true
+
+  # --- Cadenas nacionales con presencia en la ciudad ---
+  - nombre: Carrefour
+    alias: [carrefour express, carrefour market, maxi carrefour, hiper carrefour]
+    confirmado: true
+  - nombre: ChangoMás
+    alias: [chango mas, changomás, walmart]
+    confirmado: true
+  - nombre: Día
+    alias: [dia %, supermercado amistad - dia]
+    confirmado: true
+
+  # --- A verificar: aparecen en las promos pero no confirme la sucursal ---
+  - nombre: Coto
+    confirmado: false
+  - nombre: Vea
+    confirmado: false
+  - nombre: Disco
+    confirmado: false
+  - nombre: Jumbo
+    confirmado: false
+  - nombre: La Anónima
+    alias: [la anónima]
+    confirmado: false
+  - nombre: Makro
+    confirmado: false
+  - nombre: Diarco
+    alias: [diarco pueblo]
+    confirmado: false
+  - nombre: Maxiconsumo
+    confirmado: false
+  # Aparecen en las promos de Banco Santa Fe, que opera en toda la provincia.
+  # Verificar si la sucursal esta en la capital o en el resto de la provincia.
+  - nombre: La Reina
+    confirmado: false
+  - nombre: Dar
+    alias: [supermercados dar]
+    confirmado: false
+  - nombre: Supermercado Reconquista
+    confirmado: false
+
+# Comercios que aparecen en las promos pero NO estan en Santa Fe capital.
+# Listarlos aca evita que vuelvan a aparecer en el informe de desconocidos.
+descartados:
+  - Atomo            # Mendoza
+  - Toledo           # Mar del Plata y costa
+  - Cooperativa Obrera  # Bahia Blanca y sur
+  - Frioteka Rafaela # Rafaela, no la capital
+  - Justiniano Posse # Cordoba
+  - La Carlota       # Cordoba
+  - Rio Cuarto       # Cordoba
+  - Villa Maria      # Cordoba
+  - La Cumbre Sanjuanina  # San Juan
+  - Distri TDF       # Tierra del Fuego

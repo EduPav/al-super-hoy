@@ -1,0 +1,56 @@
+name: Actualizar promos
+
+on:
+  schedule:
+    # 09:00 UTC = 06:00 en Argentina. Las promos del dia ya estan publicadas.
+    - cron: "0 9 * * *"
+  workflow_dispatch:        # permite correrlo a mano desde la pestana Actions
+  push:
+    branches: [main]
+    paths:
+      - "ingesta/**"
+      - "datos/comercios-santa-fe.yml"
+      - ".github/workflows/actualizar.yml"
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ingesta
+        id: ingesta
+        run: python -m ingesta.main
+
+      - name: Publicar si hubo cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/datos/promos.json datos/estado-anterior.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios en las promos."
+          else
+            git commit -m "Promos al $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      # Si la ingesta falla, el paso anterior no corre y el sitio conserva el
+      # ultimo dato bueno. La app avisa sola que esta desactualizado.
+      - name: Avisar si fallo
+        if: failure()
+        run: echo "::warning::La ingesta fallo. El sitio sigue con los datos anteriores."

@@ -1,0 +1,7 @@
+# Cache de paginas de detalle: se regenera solo, no tiene sentido versionarlo.
+datos/cache/
+
+__pycache__/
+*.pyc
+.venv/
+venv/

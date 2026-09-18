@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Al súper hoy</title>
+<meta name="description" content="Promociones de supermercados vigentes en Santa Fe capital, con tope de reintegro y compra mínima.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="contenedor cabecera-fila">
+    <div>
+      <h1>Al súper hoy</h1>
+      <p class="sub" id="subtitulo">Cargando…</p>
+    </div>
+    <div id="frescura" class="frescura"></div>
+  </div>
+</header>
+
+<div class="barra-gasto">
+  <div class="contenedor">
+    <label for="gasto">¿Cuánto vas a gastar?</label>
+    <div class="campo-gasto">
+      <span class="signo">$</span>
+      <input type="number" id="gasto" inputmode="numeric" min="0" step="1000"
+             placeholder="60000" autocomplete="off">
+      <button type="button" id="limpiar-gasto" class="boton-plano" hidden>Limpiar</button>
+    </div>
+    <p class="ayuda">Con un monto, las promos se ordenan por lo que ahorrás de verdad —
+      no por el porcentaje que anuncian.</p>
+  </div>
+</div>
+
+<nav class="pestanas contenedor" id="pestanas">
+  <button type="button" data-vista="hoy" class="activa">Hoy</button>
+  <button type="button" data-vista="semana">Semana</button>
+  <button type="button" data-vista="novedades">Novedades</button>
+  <button type="button" data-vista="fuentes">Fuentes</button>
+</nav>
+
+<main class="contenedor" id="principal">
+  <section id="vista-hoy" class="vista">
+    <div class="filtros" id="filtros"></div>
+    <div id="lista-hoy" class="lista"></div>
+  </section>
+
+  <section id="vista-semana" class="vista" hidden>
+    <p class="nota">Para planificar la compra grande: qué día conviene ir.</p>
+    <div id="lista-semana"></div>
+  </section>
+
+  <section id="vista-novedades" class="vista" hidden>
+    <div id="lista-novedades"></div>
+  </section>
+
+  <section id="vista-fuentes" class="vista" hidden>
+    <div id="lista-fuentes"></div>
+  </section>
+</main>
+
+<footer class="contenedor pie">
+  <p>Los datos salen de fuentes públicas y pueden tener errores o cambiar sin aviso.
+     Antes de una compra grande, confirmá en el link de la fuente.</p>
+  <p>Tus preferencias y topes consumidos se guardan solo en este navegador.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
