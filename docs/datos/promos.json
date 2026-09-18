@@ -1,98 +1,7 @@
 {
- "generado": "2026-09-18T00:07:17+00:00",
+ "generado": "2026-09-18T00:28:46+00:00",
  "zona": "Santa Fe capital",
  "promos": [
-  {
-   "comercio": "Carrefour",
-   "tipo": "reintegro",
-   "valor": 30.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "S"
-   ],
-   "desde": "2026-05-12",
-   "hasta": "2027-01-01",
-   "bancos": [
-    "Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "master",
-    "visa",
-    "american_express"
-   ],
-   "modalidad": [
-    "presencial",
-    "NFC",
-    "physical-card"
-   ],
-   "acumulable": true,
-   "titulo": "SUPER MARKET",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/2605-macro-supermarket-30off",
-   "comercio_clave": "carrefour",
-   "id": "06f62168d803",
-   "dias_nombre": [
-    "sabado"
-   ],
-   "gasto_optimo": 83333,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/2605-macro-supermarket-30off"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Carrefour",
-   "tipo": "reintegro",
-   "valor": 30.0,
-   "tope": 30000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "X"
-   ],
-   "desde": "2026-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial",
-    "NFC",
-    "physical-card"
-   ],
-   "acumulable": true,
-   "titulo": "SUPER EXPRESS",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/2607-macro-superexpress-30off",
-   "comercio_clave": "carrefour",
-   "id": "8353a984be8f",
-   "dias_nombre": [
-    "miercoles"
-   ],
-   "gasto_optimo": 100000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/2607-macro-superexpress-30off"
-    }
-   ],
-   "aplica_hoy": false
-  },
   {
    "comercio": "ChangoMás",
    "tipo": "reintegro",
@@ -180,164 +89,6 @@
     {
      "nombre": "Banco Santa Fe",
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "Dar",
-   "tipo": "reintegro",
-   "valor": 30.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "X"
-   ],
-   "desde": "2025-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Banco Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "visa",
-    "master",
-    "american_express"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "30% en Paladar",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/30off-paladar-macro-selecta-jul25",
-   "comercio_clave": "dar",
-   "id": "fb043342af6a",
-   "dias_nombre": [
-    "miercoles"
-   ],
-   "gasto_optimo": 83333,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/30off-paladar-macro-selecta-jul25"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Dar",
-   "tipo": "reintegro",
-   "valor": 30.0,
-   "tope": 30000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "L",
-    "M",
-    "X",
-    "J",
-    "V",
-    "S",
-    "D"
-   ],
-   "desde": "2026-07-01",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "30% en Paladar - Paladini",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/30-paladar-supervielle-jul26",
-   "comercio_clave": "dar",
-   "id": "a8cf303c9fa7",
-   "dias_nombre": [
-    "lunes",
-    "martes",
-    "miercoles",
-    "jueves",
-    "viernes",
-    "sabado",
-    "domingo"
-   ],
-   "gasto_optimo": 100000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/30-paladar-supervielle-jul26"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "Día",
-   "tipo": "reintegro",
-   "valor": 30.0,
-   "tope": 10000,
-   "tope_periodo": "semana",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "L",
-    "M",
-    "X",
-    "J",
-    "V",
-    "S",
-    "D"
-   ],
-   "desde": "2026-08-01",
-   "hasta": "2026-11-01",
-   "bancos": [
-    "Comafi"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "30% en Cereales Diamante",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/30-comafi-cerealeseldiamante-ago26",
-   "comercio_clave": "dia",
-   "id": "6c3a36cad481",
-   "dias_nombre": [
-    "lunes",
-    "martes",
-    "miercoles",
-    "jueves",
-    "viernes",
-    "sabado",
-    "domingo"
-   ],
-   "gasto_optimo": 33333,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/30-comafi-cerealeseldiamante-ago26"
     }
    ],
    "aplica_hoy": true
@@ -455,55 +206,6 @@
    "comercio": "Alvear Supermercados",
    "tipo": "reintegro",
    "valor": 25.0,
-   "tope": 30000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": 100000,
-   "limites_conocidos": true,
-   "dias": [
-    "V"
-   ],
-   "desde": "2026-09-04",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "Vea",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-vea-idt-supervielle-sep26",
-   "comercio_clave": "alvear",
-   "id": "9f45e5e7ca72",
-   "dias_nombre": [
-    "viernes"
-   ],
-   "gasto_optimo": 120000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-vea-idt-supervielle-sep26"
-    },
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-vea-ps-supervielle-sep26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Alvear Supermercados",
-   "tipo": "reintegro",
-   "valor": 25.0,
    "tope": 20000,
    "tope_periodo": "mes",
    "tope_por": "usuario",
@@ -538,97 +240,6 @@
     {
      "nombre": "MODO",
      "url": "https://www.modo.com.ar/promos/25-hipotecario-alvearsupermercados-feb26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Carrefour",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "S"
-   ],
-   "desde": "2026-05-12",
-   "hasta": "2027-01-01",
-   "bancos": [
-    "Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "master",
-    "visa",
-    "american_express"
-   ],
-   "modalidad": [
-    "presencial",
-    "NFC",
-    "physical-card"
-   ],
-   "acumulable": true,
-   "titulo": "SUPER MARKET",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/2605-macro-supermarket-25off",
-   "comercio_clave": "carrefour",
-   "id": "35216ecb60cd",
-   "dias_nombre": [
-    "sabado"
-   ],
-   "gasto_optimo": 80000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/2605-macro-supermarket-25off"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Carrefour",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "X"
-   ],
-   "desde": "2026-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial",
-    "NFC",
-    "physical-card"
-   ],
-   "acumulable": true,
-   "titulo": "SUPER EXPRESS",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/2607-macro-superexpress-25off",
-   "comercio_clave": "carrefour",
-   "id": "ae54d5e9c116",
-   "dias_nombre": [
-    "miercoles"
-   ],
-   "gasto_optimo": 80000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/2607-macro-superexpress-25off"
     }
    ],
    "aplica_hoy": false
@@ -776,141 +387,6 @@
    "aplica_hoy": false
   },
   {
-   "comercio": "Dar",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "X"
-   ],
-   "desde": "2025-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Banco Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "visa",
-    "master",
-    "american_express"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "25% en Paladar",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25off-platinum-paladar-macro-jul25",
-   "comercio_clave": "dar",
-   "id": "dc7e0b3dac03",
-   "dias_nombre": [
-    "miercoles"
-   ],
-   "gasto_optimo": 80000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25off-platinum-paladar-macro-jul25"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Disco",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-09-01",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Hipotecario"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "Disco  25% Off los martes con tarjeta de débito",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-disco-hipotecario-sep26",
-   "comercio_clave": "disco",
-   "id": "e4c92f48559c",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 80000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-disco-hipotecario-sep26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Día",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-06-02",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "25% en El Diamante",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-cereales-eldiamante-ps-supervielle-jun26",
-   "comercio_clave": "dia",
-   "id": "a3957bb8e14d",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 100000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-cereales-eldiamante-ps-supervielle-jun26"
-    },
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-cereales-eldiamante-idt-supervielle-jun26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
    "comercio": "Día",
    "tipo": "reintegro",
    "valor": 25.0,
@@ -951,94 +427,6 @@
     {
      "nombre": "MODO",
      "url": "https://www.modo.com.ar/promos/25-supermercadosdia-credicoop-jun26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Jumbo",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-09-01",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Hipotecario"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "JUMBO  25% Off los martes con tarjeta de débito",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-jumbo-hipotecario-sep26",
-   "comercio_clave": "jumbo",
-   "id": "ae4fd7c9509b",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 80000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-jumbo-hipotecario-sep26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "La Anónima",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 10000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-09-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Hipotecario"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "25% en La Anónima sep",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-en-la-anonima-sep-2608-469",
-   "comercio_clave": "la anonima",
-   "id": "4aa20c0fc3a9",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 40000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-en-la-anonima-sep-2608-469"
-    },
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-en-la-anonima-target-2608-862"
     }
    ],
    "aplica_hoy": false
@@ -1134,143 +522,6 @@
     {
      "nombre": "MODO",
      "url": "https://www.modo.com.ar/promos/25-hipotecario-lagallega-feb26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "La Reina",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "L"
-   ],
-   "desde": "2026-07-06",
-   "hasta": "2026-10-03",
-   "bancos": [],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "dinners_club",
-    "confiable",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "25% en La Reina",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/lareina-jul26",
-   "comercio_clave": "la reina",
-   "id": "672eaf62a473",
-   "dias_nombre": [
-    "lunes"
-   ],
-   "gasto_optimo": 100000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/lareina-jul26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "La Reina",
-   "tipo": "descuento",
-   "valor": 25.0,
-   "tope": null,
-   "tope_periodo": null,
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": false,
-   "dias": [
-    "L"
-   ],
-   "desde": "2026-08-01",
-   "hasta": "2026-10-02",
-   "bancos": [
-    "Banco Santa Fe"
-   ],
-   "medios_debito": [],
-   "medios_credito": [],
-   "modalidad": [],
-   "acumulable": null,
-   "titulo": "25% de descuento en La Reina",
-   "fuente": "Banco Santa Fe",
-   "url": "https://www.bancosantafe.com.ar/beneficios-supermercados",
-   "comercio_clave": "la reina",
-   "id": "d1b3f9675094",
-   "dias_nombre": [
-    "lunes"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "Banco Santa Fe",
-     "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Makro",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 10000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-09-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Hipotecario",
-    "MODO"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "25% en Makro sep",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-en-makro-sep-2608-243",
-   "comercio_clave": "makro",
-   "id": "f5d6f0d2a639",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 40000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-en-makro-sep-2608-243"
-    },
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-en-makro-target-2608-364"
     }
    ],
    "aplica_hoy": false
@@ -1385,6 +636,55 @@
    "aplica_hoy": true
   },
   {
+   "comercio": "Vea",
+   "tipo": "reintegro",
+   "valor": 25.0,
+   "tope": 30000,
+   "tope_periodo": "mes",
+   "tope_por": "usuario",
+   "compra_minima": 100000,
+   "limites_conocidos": true,
+   "dias": [
+    "V"
+   ],
+   "desde": "2026-09-04",
+   "hasta": "2026-10-01",
+   "bancos": [
+    "Supervielle"
+   ],
+   "medios_debito": [
+    "visa"
+   ],
+   "medios_credito": [
+    "master",
+    "visa"
+   ],
+   "modalidad": [
+    "presencial"
+   ],
+   "acumulable": true,
+   "titulo": "Vea",
+   "fuente": "MODO",
+   "url": "https://www.modo.com.ar/promos/25-vea-idt-supervielle-sep26",
+   "comercio_clave": "vea",
+   "id": "9f45e5e7ca72",
+   "dias_nombre": [
+    "viernes"
+   ],
+   "gasto_optimo": 120000,
+   "fuentes": [
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/25-vea-idt-supervielle-sep26"
+    },
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/25-vea-ps-supervielle-sep26"
+    }
+   ],
+   "aplica_hoy": false
+  },
+  {
    "comercio": "Alvear Supermercados",
    "tipo": "reintegro",
    "valor": 20.0,
@@ -1437,109 +737,6 @@
   },
   {
    "comercio": "Alvear Supermercados",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": "banco",
-   "compra_minima": 100000,
-   "limites_conocidos": true,
-   "dias": [
-    "V"
-   ],
-   "desde": "2026-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "confiable",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "online",
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Vea",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/vea-septiembre26",
-   "comercio_clave": "alvear",
-   "id": "4c96f577c0d3",
-   "dias_nombre": [
-    "viernes"
-   ],
-   "gasto_optimo": 125000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/vea-septiembre26"
-    },
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20-vea-rm-supervielle-sep26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Alvear Supermercados",
-   "tipo": "descuento",
-   "valor": 20.0,
-   "tope": null,
-   "tope_periodo": null,
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": false,
-   "dias": [
-    "V",
-    "S",
-    "D"
-   ],
-   "desde": "2026-05-01",
-   "hasta": "2026-09-30",
-   "bancos": [
-    "Banco Santa Fe"
-   ],
-   "medios_debito": [],
-   "medios_credito": [],
-   "modalidad": [
-    "Modo"
-   ],
-   "acumulable": null,
-   "titulo": "20% de descuento en Vea - Modo",
-   "fuente": "Banco Santa Fe",
-   "url": "https://www.bancosantafe.com.ar/beneficios-supermercados",
-   "comercio_clave": "alvear",
-   "id": "ab08f15cc9af",
-   "dias_nombre": [
-    "viernes",
-    "sabado",
-    "domingo"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "Banco Santa Fe",
-     "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Alvear Supermercados",
    "tipo": "descuento",
    "valor": 20.0,
    "tope": null,
@@ -1572,97 +769,6 @@
     {
      "nombre": "Banco Santa Fe",
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Carrefour",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "S"
-   ],
-   "desde": "2026-05-12",
-   "hasta": "2027-01-01",
-   "bancos": [
-    "Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "master",
-    "visa",
-    "american_express"
-   ],
-   "modalidad": [
-    "presencial",
-    "NFC",
-    "physical-card"
-   ],
-   "acumulable": true,
-   "titulo": "SUPER MARKET",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/2605-macro-supermarket-20off",
-   "comercio_clave": "carrefour",
-   "id": "809bb4d41a85",
-   "dias_nombre": [
-    "sabado"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/2605-macro-supermarket-20off"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Carrefour",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "X"
-   ],
-   "desde": "2026-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial",
-    "NFC",
-    "physical-card"
-   ],
-   "acumulable": true,
-   "titulo": "SUPER EXPRESS",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/2607-macro-superexpress-20off",
-   "comercio_clave": "carrefour",
-   "id": "7e81c4bedcfd",
-   "dias_nombre": [
-    "miercoles"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/2607-macro-superexpress-20off"
     }
    ],
    "aplica_hoy": false
@@ -1909,259 +1015,6 @@
    "aplica_hoy": false
   },
   {
-   "comercio": "Dar",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "mes",
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "X"
-   ],
-   "desde": "2025-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Banco Macro"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "visa",
-    "master",
-    "american_express"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Paladar",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20off-paladar-macro-jul25",
-   "comercio_clave": "dar",
-   "id": "e3407fb7731b",
-   "dias_nombre": [
-    "miercoles"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20off-paladar-macro-jul25"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Dar",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 10000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "L",
-    "M",
-    "X",
-    "J",
-    "V",
-    "S",
-    "D"
-   ],
-   "desde": "2026-07-01",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Paladar - Paladini",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20-paladar-supervielle-jul26",
-   "comercio_clave": "dar",
-   "id": "41a8a4d213cb",
-   "dias_nombre": [
-    "lunes",
-    "martes",
-    "miercoles",
-    "jueves",
-    "viernes",
-    "sabado",
-    "domingo"
-   ],
-   "gasto_optimo": 50000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20-paladar-supervielle-jul26"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "Disco",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": "banco",
-   "compra_minima": 100000,
-   "limites_conocidos": true,
-   "dias": [
-    "V",
-    "S"
-   ],
-   "desde": "2026-07-01",
-   "hasta": "2026-10-01",
-   "bancos": [],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "dinners_club",
-    "confiable",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial",
-    "online",
-    "NFC"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Disco",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/disco-septiembre26",
-   "comercio_clave": "disco",
-   "id": "09a6a3e53b59",
-   "dias_nombre": [
-    "viernes",
-    "sabado"
-   ],
-   "gasto_optimo": 125000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/disco-septiembre26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Disco",
-   "tipo": "descuento",
-   "valor": 20.0,
-   "tope": null,
-   "tope_periodo": null,
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": false,
-   "dias": [
-    "V",
-    "S"
-   ],
-   "desde": "2026-08-01",
-   "hasta": "2026-09-30",
-   "bancos": [
-    "Banco Santa Fe"
-   ],
-   "medios_debito": [],
-   "medios_credito": [],
-   "modalidad": [
-    "Modo"
-   ],
-   "acumulable": null,
-   "titulo": "20% de descuento en Disco - Modo",
-   "fuente": "Banco Santa Fe",
-   "url": "https://www.bancosantafe.com.ar/beneficios-supermercados",
-   "comercio_clave": "disco",
-   "id": "e1f1e01d6881",
-   "dias_nombre": [
-    "viernes",
-    "sabado"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "Banco Santa Fe",
-     "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Día",
-   "tipo": "descuento",
-   "valor": 20.0,
-   "tope": null,
-   "tope_periodo": "dia",
-   "tope_por": "banco",
-   "compra_minima": 35000,
-   "limites_conocidos": true,
-   "dias": [
-    "S",
-    "D"
-   ],
-   "desde": "2026-09-05",
-   "hasta": "2026-09-28",
-   "bancos": [],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "dinners_club",
-    "confiable",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en  Diarco Barrio",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/diarco-barrio-agosto26",
-   "comercio_clave": "dia",
-   "id": "a533e3bb7edf",
-   "dias_nombre": [
-    "sabado",
-    "domingo"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/diarco-barrio-agosto26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
    "comercio": "Día",
    "tipo": "reintegro",
    "valor": 20.0,
@@ -2219,104 +1072,6 @@
   },
   {
    "comercio": "Día",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-06-02",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en El Diamante",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20-cereales-eldiamante-rm-supervielle-jun26",
-   "comercio_clave": "dia",
-   "id": "3e518ccdb54c",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20-cereales-eldiamante-rm-supervielle-jun26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Día",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "semana",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "L",
-    "M",
-    "X",
-    "J",
-    "V"
-   ],
-   "desde": "2026-02-02",
-   "hasta": "2026-11-01",
-   "bancos": [
-    "Comafi"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Diarco",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20-comafi-diarco-feb26",
-   "comercio_clave": "dia",
-   "id": "ebfd44325a48",
-   "dias_nombre": [
-    "lunes",
-    "martes",
-    "miercoles",
-    "jueves",
-    "viernes"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20-comafi-diarco-feb26"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "Día",
    "tipo": "descuento",
    "valor": 20.0,
    "tope": null,
@@ -2356,104 +1111,6 @@
     }
    ],
    "aplica_hoy": false
-  },
-  {
-   "comercio": "Jumbo",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": "banco",
-   "compra_minima": 100000,
-   "limites_conocidos": true,
-   "dias": [
-    "M",
-    "J"
-   ],
-   "desde": "2026-06-01",
-   "hasta": "2026-10-01",
-   "bancos": [],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "dinners_club",
-    "confiable",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial",
-    "online",
-    "NFC"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Jumbo",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/jumbo-septiembre26",
-   "comercio_clave": "jumbo",
-   "id": "b107b21f5504",
-   "dias_nombre": [
-    "martes",
-    "jueves"
-   ],
-   "gasto_optimo": 125000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/jumbo-septiembre26"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "Jumbo",
-   "tipo": "descuento",
-   "valor": 20.0,
-   "tope": null,
-   "tope_periodo": null,
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": false,
-   "dias": [
-    "M",
-    "J"
-   ],
-   "desde": "2026-08-01",
-   "hasta": "2026-09-30",
-   "bancos": [
-    "Banco Santa Fe"
-   ],
-   "medios_debito": [],
-   "medios_credito": [],
-   "modalidad": [
-    "Modo"
-   ],
-   "acumulable": null,
-   "titulo": "20% de descuento en Jumbo - Modo",
-   "fuente": "Banco Santa Fe",
-   "url": "https://www.bancosantafe.com.ar/beneficios-supermercados",
-   "comercio_clave": "jumbo",
-   "id": "db70550466a4",
-   "dias_nombre": [
-    "martes",
-    "jueves"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "Banco Santa Fe",
-     "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": true
   },
   {
    "comercio": "Kilbel",
@@ -2538,279 +1195,6 @@
    "id": "001510ddf42d",
    "dias_nombre": [
     "miercoles",
-    "jueves"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "Banco Santa Fe",
-     "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "La Anónima",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "mes",
-   "tope_por": "banco",
-   "compra_minima": 50000,
-   "limites_conocidos": true,
-   "dias": [
-    "V",
-    "S"
-   ],
-   "desde": "2026-05-01",
-   "hasta": "2026-11-01",
-   "bancos": [],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "dinners_club",
-    "confiable",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en La Anónima",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/laanonima-septiembre26",
-   "comercio_clave": "la anonima",
-   "id": "17df8509b3e1",
-   "dias_nombre": [
-    "viernes",
-    "sabado"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/laanonima-septiembre26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "La Anónima",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "semana",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "J"
-   ],
-   "desde": "2026-04-02",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "ICBC"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en La Anónima",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20-la-anonima-icbc-abr26",
-   "comercio_clave": "la anonima",
-   "id": "e8d98e36f223",
-   "dias_nombre": [
-    "jueves"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20-la-anonima-icbc-abr26"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "La Anónima",
-   "tipo": "descuento",
-   "valor": 20.0,
-   "tope": null,
-   "tope_periodo": null,
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": false,
-   "dias": [
-    "V",
-    "S"
-   ],
-   "desde": "2026-06-01",
-   "hasta": "2026-10-31",
-   "bancos": [
-    "Banco Santa Fe"
-   ],
-   "medios_debito": [],
-   "medios_credito": [],
-   "modalidad": [
-    "Modo"
-   ],
-   "acumulable": null,
-   "titulo": "20% de descuento en La Anonima - Modo",
-   "fuente": "Banco Santa Fe",
-   "url": "https://www.bancosantafe.com.ar/beneficios-supermercados",
-   "comercio_clave": "la anonima",
-   "id": "c507ec3c4b40",
-   "dias_nombre": [
-    "viernes",
-    "sabado"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "Banco Santa Fe",
-     "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Makro",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": "banco",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "J"
-   ],
-   "desde": "2026-06-01",
-   "hasta": "2026-10-01",
-   "bancos": [],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "dinners_club",
-    "confiable",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Makro",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/makro-septiembre26",
-   "comercio_clave": "makro",
-   "id": "f4c0de66e42a",
-   "dias_nombre": [
-    "jueves"
-   ],
-   "gasto_optimo": 100000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/makro-septiembre26"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "Makro",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 15000,
-   "tope_periodo": "semana",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "X"
-   ],
-   "desde": "2026-03-25",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Comafi"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "20% en Makro",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20off-makro-comafi-mar26",
-   "comercio_clave": "makro",
-   "id": "af6f2c9eee55",
-   "dias_nombre": [
-    "miercoles"
-   ],
-   "gasto_optimo": 75000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20off-makro-comafi-mar26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Makro",
-   "tipo": "descuento",
-   "valor": 20.0,
-   "tope": null,
-   "tope_periodo": null,
-   "tope_por": null,
-   "compra_minima": null,
-   "limites_conocidos": false,
-   "dias": [
-    "J"
-   ],
-   "desde": "2026-06-01",
-   "hasta": "2026-09-30",
-   "bancos": [
-    "Banco Santa Fe"
-   ],
-   "medios_debito": [],
-   "medios_credito": [],
-   "modalidad": [],
-   "acumulable": null,
-   "titulo": "20% de descuento en Supermercado Makro",
-   "fuente": "Banco Santa Fe",
-   "url": "https://www.bancosantafe.com.ar/beneficios-supermercados",
-   "comercio_clave": "makro",
-   "id": "5c22b7c92389",
-   "dias_nombre": [
     "jueves"
    ],
    "gasto_optimo": null,
@@ -2913,52 +1297,66 @@
    "aplica_hoy": false
   },
   {
-   "comercio": "Supermercado Reconquista",
+   "comercio": "Vea",
    "tipo": "reintegro",
    "valor": 20.0,
-   "tope": 15000,
+   "tope": 25000,
    "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
+   "tope_por": "banco",
+   "compra_minima": 100000,
    "limites_conocidos": true,
    "dias": [
-    "X"
+    "V"
    ],
-   "desde": "2026-06-10",
-   "hasta": "2026-11-01",
+   "desde": "2026-07-01",
+   "hasta": "2026-10-01",
    "bancos": [
-    "Macro"
+    "Supervielle"
    ],
-   "medios_debito": [],
-   "medios_credito": [
-    "visa",
+   "medios_debito": [
+    "cabal",
+    "dinners_club",
+    "maestro",
     "master",
-    "american_express"
+    "visa"
+   ],
+   "medios_credito": [
+    "american_express",
+    "cabal",
+    "confiable",
+    "dinners_club",
+    "maestro",
+    "master",
+    "visa"
    ],
    "modalidad": [
-    "presencial",
-    "NFC"
+    "online",
+    "presencial"
    ],
    "acumulable": true,
-   "titulo": "20% en Eco Supermercados",
+   "titulo": "20% en Vea",
    "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20off-eco-macro-jun26",
-   "comercio_clave": "reconquista",
-   "id": "a76f1c888f68",
+   "url": "https://www.modo.com.ar/promos/vea-septiembre26",
+   "comercio_clave": "vea",
+   "id": "4c96f577c0d3",
    "dias_nombre": [
-    "miercoles"
+    "viernes"
    ],
-   "gasto_optimo": 75000,
+   "gasto_optimo": 125000,
    "fuentes": [
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20off-eco-macro-jun26"
+     "url": "https://www.modo.com.ar/promos/vea-septiembre26"
+    },
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/20-vea-rm-supervielle-sep26"
     }
    ],
    "aplica_hoy": false
   },
   {
-   "comercio": "Supermercado Reconquista",
+   "comercio": "Vea",
    "tipo": "descuento",
    "valor": 20.0,
    "tope": null,
@@ -2967,24 +1365,30 @@
    "compra_minima": null,
    "limites_conocidos": false,
    "dias": [
-    "V"
+    "V",
+    "S",
+    "D"
    ],
-   "desde": "2026-09-01",
-   "hasta": "2026-10-31",
+   "desde": "2026-05-01",
+   "hasta": "2026-09-30",
    "bancos": [
     "Banco Santa Fe"
    ],
    "medios_debito": [],
    "medios_credito": [],
-   "modalidad": [],
+   "modalidad": [
+    "Modo"
+   ],
    "acumulable": null,
-   "titulo": "20% de descuento en Supermercado Reconquista",
+   "titulo": "20% de descuento en Vea - Modo",
    "fuente": "Banco Santa Fe",
    "url": "https://www.bancosantafe.com.ar/beneficios-supermercados",
-   "comercio_clave": "reconquista",
-   "id": "bebdd62c1115",
+   "comercio_clave": "vea",
+   "id": "ab08f15cc9af",
    "dias_nombre": [
-    "viernes"
+    "viernes",
+    "sabado",
+    "domingo"
    ],
    "gasto_optimo": null,
    "fuentes": [
@@ -3107,71 +1511,6 @@
    "aplica_hoy": false
   },
   {
-   "comercio": "Día",
-   "tipo": "descuento",
-   "valor": 15.0,
-   "tope": null,
-   "tope_periodo": "dia",
-   "tope_por": "banco",
-   "compra_minima": 100000,
-   "limites_conocidos": true,
-   "dias": [
-    "S",
-    "D"
-   ],
-   "desde": "2026-09-05",
-   "hasta": "2026-09-28",
-   "bancos": [
-    "Banco Santa Fe"
-   ],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "confiable",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "Modo",
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "15% en Diarco Mayorista Septiembre",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/diarco-mayorista-sep-26",
-   "comercio_clave": "dia",
-   "id": "7d9c4e2e5c00",
-   "dias_nombre": [
-    "sabado",
-    "domingo"
-   ],
-   "gasto_optimo": null,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/diarco-mayorista-sep-26"
-    },
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/diarco-pueblo-sep26"
-    },
-    {
-     "nombre": "Banco Santa Fe",
-     "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
    "comercio": "Coto",
    "tipo": "reintegro",
    "valor": 10.0,
@@ -3225,58 +1564,6 @@
    "comercio": "Día",
    "tipo": "reintegro",
    "valor": 10.0,
-   "tope": 25000,
-   "tope_periodo": "mes",
-   "tope_por": "banco",
-   "compra_minima": 30000,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-09-01",
-   "hasta": "2026-11-01",
-   "bancos": [],
-   "medios_debito": [
-    "cabal",
-    "dinners_club",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "medios_credito": [
-    "american_express",
-    "cabal",
-    "dinners_club",
-    "confiable",
-    "maestro",
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "10% en Cordial S",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/10-en-cordial-s-2608-179",
-   "comercio_clave": "dia",
-   "id": "cf30bea1fb06",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 250000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/10-en-cordial-s-2608-179"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Día",
-   "tipo": "reintegro",
-   "valor": 10.0,
    "tope": 10000,
    "tope_periodo": "mes",
    "tope_por": "usuario",
@@ -3315,144 +1602,6 @@
     {
      "nombre": "MODO",
      "url": "https://www.modo.com.ar/promos/2608-macro-supermercadoamistad-dia-10"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Jumbo",
-   "tipo": "reintegro",
-   "valor": 10.0,
-   "tope": 10000,
-   "tope_periodo": null,
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M",
-    "J"
-   ],
-   "desde": "2026-09-15",
-   "hasta": "2026-10-12",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [],
-   "medios_credito": [
-    "master"
-   ],
-   "modalidad": [
-    "presencial",
-    "online"
-   ],
-   "acumulable": true,
-   "titulo": "Jumbo",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/10-jumbo-master-supervielle-sept26",
-   "comercio_clave": "jumbo",
-   "id": "797b8a0eb0b8",
-   "dias_nombre": [
-    "martes",
-    "jueves"
-   ],
-   "gasto_optimo": 100000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/10-jumbo-master-supervielle-sept26"
-    }
-   ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "La Anónima",
-   "tipo": "reintegro",
-   "valor": 10.0,
-   "tope": 3000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "V",
-    "S"
-   ],
-   "desde": "2026-05-01",
-   "hasta": "2026-11-01",
-   "bancos": [
-    "Banco Santa Fe",
-    "Banco Santa Cruz"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "master",
-    "visa"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "10% extra en La Anónima",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/10-bsf-bsc-laanonima-may26",
-   "comercio_clave": "la anonima",
-   "id": "561d7c621811",
-   "dias_nombre": [
-    "viernes",
-    "sabado"
-   ],
-   "gasto_optimo": 30000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/10-bsf-bsc-laanonima-may26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "Alvear Supermercados",
-   "tipo": "reintegro",
-   "valor": 5.0,
-   "tope": 5000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": 100000,
-   "limites_conocidos": true,
-   "dias": [
-    "V"
-   ],
-   "desde": "2026-09-04",
-   "hasta": "2026-10-01",
-   "bancos": [
-    "Supervielle"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "Vea",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/5-vea-supervielle-sep26",
-   "comercio_clave": "alvear",
-   "id": "25d75972cb3f",
-   "dias_nombre": [
-    "viernes"
-   ],
-   "gasto_optimo": 100000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/5-vea-supervielle-sep26"
     }
    ],
    "aplica_hoy": false
@@ -3503,7 +1652,7 @@
    "aplica_hoy": false
   },
   {
-   "comercio": "Jumbo",
+   "comercio": "Vea",
    "tipo": "reintegro",
    "valor": 5.0,
    "tope": 5000,
@@ -3512,10 +1661,9 @@
    "compra_minima": 100000,
    "limites_conocidos": true,
    "dias": [
-    "M",
-    "J"
+    "V"
    ],
-   "desde": "2026-06-02",
+   "desde": "2026-09-04",
    "hasta": "2026-10-01",
    "bancos": [
     "Supervielle"
@@ -3524,52 +1672,41 @@
     "visa"
    ],
    "medios_credito": [
-    "master",
-    "visa"
+    "visa",
+    "master"
    ],
    "modalidad": [
     "presencial"
    ],
    "acumulable": true,
-   "titulo": "5% extra en Jumbo",
+   "titulo": "Vea",
    "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/5-jumbo-supervielle-idt-jun26",
-   "comercio_clave": "jumbo",
-   "id": "a5ad0ed3e616",
+   "url": "https://www.modo.com.ar/promos/5-vea-supervielle-sep26",
+   "comercio_clave": "vea",
+   "id": "25d75972cb3f",
    "dias_nombre": [
-    "martes",
-    "jueves"
+    "viernes"
    ],
    "gasto_optimo": 100000,
    "fuentes": [
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/5-jumbo-supervielle-idt-jun26"
-    },
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/5-jumbo-supervielle-ps-jun26"
+     "url": "https://www.modo.com.ar/promos/5-vea-supervielle-sep26"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   }
  ],
  "comercios": [
   "Alvear Supermercados",
-  "Carrefour",
   "ChangoMás",
   "Coto",
   "Dar",
-  "Disco",
   "Día",
-  "Jumbo",
   "Kilbel",
-  "La Anónima",
   "La Gallega",
-  "La Reina",
-  "Makro",
   "Super El Túnel",
-  "Supermercado Reconquista"
+  "Vea"
  ],
  "bancos": [
   "BANCOR",
@@ -3577,7 +1714,6 @@
   "Banco Columbia",
   "Banco Entre Rios",
   "Banco Hipotecario",
-  "Banco Macro",
   "Banco Nación",
   "Banco San Juan",
   "Banco Santa Cruz",
@@ -3591,7 +1727,6 @@
   "Galicia",
   "Hipotecario",
   "ICBC",
-  "MODO",
   "Macro",
   "Santander",
   "Supervielle",
@@ -3602,29 +1737,17 @@
    "nombre": "MODO",
    "ok": true,
    "error": "",
-   "promos": 70
+   "promos": 32
   },
   {
    "nombre": "Banco Santa Fe",
    "ok": true,
    "error": "",
-   "promos": 17
+   "promos": 10
   }
  ],
  "revisar": {
-  "por_confirmar": [
-   "Coto",
-   "Vea",
-   "Disco",
-   "Jumbo",
-   "La Anónima",
-   "Makro",
-   "Diarco",
-   "Maxiconsumo",
-   "La Reina",
-   "Dar",
-   "Supermercado Reconquista"
-  ],
+  "por_confirmar": [],
   "desconocidos": [
    {
     "comercio": "CIUDAD TOMADA",
@@ -3660,6 +1783,10 @@
    },
    {
     "comercio": "CARNES LA ELVIRA",
+    "promos": 3
+   },
+   {
+    "comercio": "Cereales El Diamante",
     "promos": 3
    },
    {
@@ -3747,6 +1874,14 @@
     "promos": 3
    },
    {
+    "comercio": "SUPER EXPRESS",
+    "promos": 3
+   },
+   {
+    "comercio": "SUPER MARKET",
+    "promos": 3
+   },
+   {
     "comercio": "SUPERMERCADO ANTONELLA",
     "promos": 3
    },
@@ -3763,28 +1898,16 @@
     "promos": 3
    },
    {
+    "comercio": "Supermercado Paladar",
+    "promos": 3
+   },
+   {
     "comercio": "TINA MAYORISTA",
     "promos": 3
    },
    {
     "comercio": "TRELEW",
     "promos": 3
-   },
-   {
-    "comercio": "UN RINCON DE NAPOLI",
-    "promos": 3
-   },
-   {
-    "comercio": "AIELLO SUPERMERCADOS",
-    "promos": 2
-   },
-   {
-    "comercio": "Aiello",
-    "promos": 2
-   },
-   {
-    "comercio": "Friar",
-    "promos": 2
    }
   ]
  },
@@ -3792,6 +1915,6 @@
   "nuevas": [],
   "terminadas": [],
   "cambios": [],
-  "comparado_con": "2026-09-18T00:05:32+00:00"
+  "comparado_con": "2026-09-18T00:28:30+00:00"
  }
 }

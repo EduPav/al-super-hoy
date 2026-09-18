@@ -37,38 +37,28 @@ comercios:
     alias: [dia %, supermercado amistad - dia]
     confirmado: true
 
-  # --- A verificar: aparecen en las promos pero no confirme la sucursal ---
   - nombre: Coto
-    confirmado: false
+    confirmado: true
   - nombre: Vea
-    confirmado: false
-  - nombre: Disco
-    confirmado: false
-  - nombre: Jumbo
-    confirmado: false
-  - nombre: La Anónima
-    alias: [la anónima]
-    confirmado: false
-  - nombre: Makro
-    confirmado: false
-  - nombre: Diarco
-    alias: [diarco pueblo]
-    confirmado: false
-  - nombre: Maxiconsumo
-    confirmado: false
-  # Aparecen en las promos de Banco Santa Fe, que opera en toda la provincia.
-  # Verificar si la sucursal esta en la capital o en el resto de la provincia.
-  - nombre: La Reina
-    confirmado: false
+    confirmado: true
   - nombre: Dar
     alias: [supermercados dar]
-    confirmado: false
-  - nombre: Supermercado Reconquista
-    confirmado: false
+    confirmado: true
 
 # Comercios que aparecen en las promos pero NO estan en Santa Fe capital.
 # Listarlos aca evita que vuelvan a aparecer en el informe de desconocidos.
 descartados:
+  # Verificados con el usuario (17/09/2026): tienen promo vigente pero no
+  # sucursal en la capital. Si alguno abre, moverlo arriba y listo.
+  - Disco
+  - Jumbo
+  - La Anonima
+  - Makro
+  - Diarco
+  - Maxiconsumo
+  - La Reina
+  - Supermercado Reconquista
+
   - Atomo            # Mendoza
   - Toledo           # Mar del Plata y costa
   - Cooperativa Obrera  # Bahia Blanca y sur

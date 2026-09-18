@@ -20,6 +20,29 @@ from .modelo import Promo, clave
 REGISTRO = Path(__file__).resolve().parent.parent / "datos" / "comercios-santa-fe.yml"
 
 
+def contiene(patron: str, texto: str) -> bool:
+    """True si `patron` aparece en `texto` como secuencia de palabras completas.
+
+    Comparar por subcadena suelta mezcla comercios distintos: "dia" aparece
+    dentro de "diarco", "diamante" y "cordial", y "vea" dentro de "alvear".
+    Exigir palabras completas y contiguas evita esos falsos positivos.
+
+    La direccion importa: el nombre del registro tiene que estar dentro del
+    nombre de la promo, no al reves. Asi "Carrefour" reconoce a "Carrefour
+    Express", pero "Carrefour Market" no se queda con un "Super Market"
+    cualquiera.
+    """
+    if not patron or not texto:
+        return False
+    aguja, pajar = patron.split(), texto.split()
+    if len(aguja) > len(pajar):
+        return False
+    return any(
+        pajar[i:i + len(aguja)] == aguja
+        for i in range(len(pajar) - len(aguja) + 1)
+    )
+
+
 @dataclass
 class Comercio:
     nombre: str
@@ -58,11 +81,8 @@ class Zona:
         if not comercio_clave:
             return None
         for c in self.comercios:
-            for k in c.claves:
-                # Coincidencia por contencion en cualquier direccion: cubre
-                # "carrefour express" contra "carrefour" y viceversa.
-                if k == comercio_clave or k in comercio_clave or comercio_clave in k:
-                    return c
+            if any(contiene(k, comercio_clave) for k in c.claves):
+                return c
         return None
 
     def incluye(self, promo: Promo) -> bool:
@@ -79,7 +99,7 @@ class Zona:
         return False
 
     def _descartado(self, comercio_clave: str) -> bool:
-        return any(d in comercio_clave or comercio_clave in d for d in self.descartados)
+        return any(contiene(d, comercio_clave) for d in self.descartados)
 
     def filtrar(self, promos: list[Promo]) -> list[Promo]:
         return [p for p in promos if self.incluye(p)]
