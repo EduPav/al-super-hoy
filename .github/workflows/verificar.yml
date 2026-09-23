@@ -1,0 +1,49 @@
+name: Verificar
+
+# El gate canonico del repo, corrido en cada push y cada PR a main. Que revisa
+# cada uno y como salir de un fallo: documentacion/verificacion.md.
+#
+# Dos jobs en paralelo a proposito: el primero corre SIN instalar nada, que es
+# la unica forma de probar que el chequeo de instrucciones no depende del
+# entorno. Si algun dia necesitara una dependencia, este job lo delata.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Los dos jobs solo bajan el repo y corren comandos locales.
+permissions:
+  contents: read
+
+jobs:
+  instrucciones:
+    name: Instrucciones (sin dependencias)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Chequear la superficie de instrucciones
+        run: python -m herramientas.instrucciones
+
+  verificar:
+    name: Gate canonico
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-dev.txt
+
+      - name: Verificar
+        run: python -m herramientas.verificar

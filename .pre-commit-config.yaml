@@ -1,0 +1,31 @@
+# Opcional: atrapa lo obvio antes del commit. No reemplaza a
+# `python -m herramientas.verificar`, que es el gate.
+#
+#   pip install pre-commit && pre-commit install
+repos:
+  # El repo es publico y el historial queda: lo que se cuela aca no se borra.
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        # promos.json es la salida de la ingesta: son datos publicos de bancos
+        # y comercios, y sus ids parecen hashes.
+        exclude: ^docs/datos/|^datos/estado-anterior\.json$
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.6
+    hooks:
+      - id: ruff
+        args: [--fix]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=2000"]
+      - id: check-yaml
+      - id: end-of-file-fixer
+        exclude: ^docs/datos/
+      - id: trailing-whitespace
+        exclude: ^docs/datos/
+      - id: check-merge-conflict

@@ -1,3 +1,9 @@
+# El repo es publico: nada de credenciales ni de entornos locales.
+# La regla completa esta en documentacion/seguridad.md.
+.env
+.env.*
+!.env.example
+
 # Cache de paginas de detalle: se regenera solo, no tiene sentido versionarlo.
 datos/cache/
 
@@ -5,3 +11,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.pytest_cache/
+.ruff_cache/
+# Lo deja el plugin de approvaltests al correr pytest; trae su propio
+# .gitignore, pero mejor no depender de eso.
+.approval_tests_temp/

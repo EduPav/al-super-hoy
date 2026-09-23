@@ -1,0 +1,28 @@
+[project]
+name = "al-super-hoy"
+version = "1.0.0"
+description = "Promociones de supermercados vigentes en Santa Fe capital"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+# `docs/` es el sitio publicado (GitHub Pages), no codigo Python.
+extend-exclude = ["docs", "datos"]
+
+[tool.ruff.lint]
+# T20 = sin print(). La ingesta y las herramientas son CLI y ahi el print es la
+# interfaz; en el resto del codigo un print es un dato que se pierde.
+select = ["E", "F", "I", "T20", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"ingesta/main.py" = ["T20"]
+"ingesta/explorar.py" = ["T20"]
+"herramientas/*.py" = ["T20"]
+
+[tool.pytest.ini_options]
+testpaths = ["pruebas"]
+# La raiz en sys.path: las pruebas importan `ingesta` y `herramientas` sin instalar nada.
+pythonpath = ["."]
+# --import-mode=importlib evita que pruebas/ necesite __init__.py.
+addopts = "-q --import-mode=importlib"

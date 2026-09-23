@@ -8,26 +8,43 @@ No es una lista de porcentajes. Un 20% con tope de $25.000 rinde 20% solo hasta
 los $125.000; de ahí en más el porcentaje efectivo se derrumba. Y una promo con
 mínimo de $100.000 no sirve para una compra de $40.000. La app calcula eso.
 
+## Correr localmente
+
+```bash
+pip install -r requirements-dev.txt
+python -m herramientas.doctor        # el entorno está listo?
+python -m ingesta.main               # baja las promos y escribe docs/datos/promos.json
+python -m http.server 8765 --directory docs
+```
+
+Y entrar a <http://localhost:8765>. Abrir `docs/index.html` con doble clic no
+funciona: el navegador bloquea la lectura del JSON desde `file://`.
+
+Antes de dar un cambio por bueno:
+
+```bash
+python -m herramientas.verificar
+```
+
+Corre el chequeo de instrucciones, ruff y las pruebas. Sin red y sin
+credenciales, así que da lo mismo en tu máquina que en CI. El detalle de cada
+gate está en [documentacion/verificacion.md](documentacion/verificacion.md).
+
 ## Cómo funciona
 
 ```
 fuentes  ->  filtro de zona  ->  detalle  ->  fusión  ->  docs/datos/promos.json  ->  web
 ```
 
-Una vez por día, GitHub Actions corre `python -m ingesta.main`, que:
-
-1. **Lee las fuentes** de forma independiente. Si una falla, las demás siguen.
-2. **Filtra por zona** contra `datos/comercios-santa-fe.yml`. Las promos son
-   nacionales; ese registro es lo que las vuelve relevantes para la ciudad.
-3. **Pide el detalle** solo de las promos que pasaron el filtro — ahí están el
-   tope y la compra mínima. Bajar de ~380 a ~70 detalles es lo que hace que el
-   proceso sea rápido y liviano.
-4. **Fusiona** las promos repetidas entre fuentes, quedándose con el dato más
-   completo de cada una.
-5. **Compara** contra la corrida anterior y registra qué cambió.
+Una vez por día, GitHub Actions corre `python -m ingesta.main`, que lee cada
+fuente por separado, filtra por el registro de comercios de la ciudad, pide el
+detalle solo de las que pasaron el filtro (ahí están el tope y la compra
+mínima), fusiona las repetidas y compara contra la corrida anterior.
 
 El resultado se commitea como JSON y GitHub Pages lo sirve. Cero servidores,
 cero costo, cero tokens de LLM.
+
+El porqué de cada decisión está en [ARQUITECTURA.md](ARQUITECTURA.md).
 
 ### Las fuentes
 
@@ -75,16 +92,27 @@ La pestaña **Fuentes** de la app muestra dos listas para revisar:
 - **No reconocidos** — tienen promo vigente pero no están en el registro, así
   que la app los ignora. Si alguno está en la ciudad, agregalo.
 
-## Correr localmente
+El paso a paso está en
+[documentacion/flujos-de-trabajo.md](documentacion/flujos-de-trabajo.md).
 
-```bash
-pip install -r requirements.txt
-python -m ingesta.main
-python -m http.server 8765 --directory docs
-```
+## Si venís a cambiar algo
 
-Y entrar a <http://localhost:8765>. Abrir `docs/index.html` con doble clic no
-funciona: el navegador bloquea la lectura del JSON desde `file://`.
+El repo está armado para que lo trabaje un agente de código sin tener que
+adivinar nada:
+
+| Querés | Leé |
+|---|---|
+| Las reglas del repo, todas | [AGENTS.md](AGENTS.md) |
+| Cómo está armado y por qué | [ARQUITECTURA.md](ARQUITECTURA.md) |
+| El checklist de tu tipo de tarea | [documentacion/flujos-de-trabajo.md](documentacion/flujos-de-trabajo.md) |
+| Qué revisa cada gate | [documentacion/verificacion.md](documentacion/verificacion.md) |
+| Cómo funciona una pieza en detalle | [documentacion/funciones/](documentacion/funciones/) |
+| Qué sabemos que está mal | [documentacion/planes/deuda-tecnica.md](documentacion/planes/deuda-tecnica.md) |
+
+`AGENTS.md` es la única fuente de instrucciones; `CLAUDE.md` solo apunta ahí.
+Las reglas que se pueden verificar, se verifican: `python -m herramientas.instrucciones`
+chequea la propia documentación (tamaño, secciones, links, anclas, comandos, lo
+que CI dice correr) y `pruebas/test_estructura.py` chequea las capas del código.
 
 ## Publicar
 
