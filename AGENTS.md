@@ -1,4 +1,4 @@
-<!-- ultima_verificacion: 2026-09-20 -->
+<!-- ultima_verificacion: 2026-09-22 -->
 # AGENTS.md
 
 La única fuente de instrucciones de este repo. Leelo antes de tocar nada.
@@ -93,6 +93,7 @@ tienen quién las haga cumplir:
 | Los comandos documentados existen y CI corre los que dice | `python -m herramientas.instrucciones` |
 | Git ignora `.env` y `datos/cache/` | `python -m herramientas.instrucciones` |
 | Cada documento declara cuándo se verificó | `python -m herramientas.instrucciones` |
+| El repo sigue teniendo `LICENSE` y `CONTRIBUTING.md` | `python -m herramientas.instrucciones` |
 
 Qué revisa cada uno y cómo salir del fallo:
 [documentacion/verificacion.md](documentacion/verificacion.md).
@@ -154,6 +155,7 @@ documentación podrida es peor que no tener documentación: se le cree.
 | Tema | Dónde |
 |---|---|
 | Qué hace la app y cómo se corre | [README.md](README.md) |
+| Cómo se contribuye desde afuera | [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Capas, flujo de datos, decisiones | [ARQUITECTURA.md](ARQUITECTURA.md) |
 | Qué revisa cada gate y cómo recuperarse | [documentacion/verificacion.md](documentacion/verificacion.md) |
 | Comandos y checklists por tipo de tarea | [documentacion/flujos-de-trabajo.md](documentacion/flujos-de-trabajo.md) |

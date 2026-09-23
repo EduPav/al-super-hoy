@@ -26,12 +26,16 @@ from .chequeos.markdown import prohibe, seccion, titulos
 
 RAIZ = Path(__file__).resolve().parent.parent
 
-# Documentos que tienen que existir y no pueden estar vacios.
+# Documentos que tienen que existir y no pueden estar vacios. LICENSE y
+# CONTRIBUTING.md estan aca porque el repo es publico: sin licencia nadie puede
+# forkearlo aunque lo lea, y sin CONTRIBUTING no hay camino de entrada.
 OBLIGATORIOS = (
     "AGENTS.md",
     "CLAUDE.md",
     "README.md",
     "ARQUITECTURA.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
     "documentacion/verificacion.md",
     "documentacion/flujos-de-trabajo.md",
     "documentacion/seguridad.md",

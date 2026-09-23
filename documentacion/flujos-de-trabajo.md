@@ -1,4 +1,4 @@
-<!-- ultima_verificacion: 2026-09-20 -->
+<!-- ultima_verificacion: 2026-09-22 -->
 # Flujos de trabajo
 
 Los comandos y el checklist de cada tipo de tarea. Las reglas están en
@@ -98,6 +98,9 @@ python -m http.server 8765 --directory docs
 - [ ] `python -m herramientas.verificar` antes de abrirlo.
 - [ ] Documentación actualizada en el mismo cambio.
 - [ ] Solo los archivos que el trabajo pide. Nada de mejoras al pasar.
+
+Quien no mantiene el repo trabaja igual, pero desde un fork y con un PR a
+`main`: el camino corto está en [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 `.github/PULL_REQUEST_TEMPLATE.md` y
 `.github/ISSUE_TEMPLATE/tarea-para-agente.md` piden esa evidencia sin que haya

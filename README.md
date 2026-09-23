@@ -103,6 +103,7 @@ adivinar nada:
 | Querés | Leé |
 |---|---|
 | Las reglas del repo, todas | [AGENTS.md](AGENTS.md) |
+| Mandar un PR desde afuera | [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Cómo está armado y por qué | [ARQUITECTURA.md](ARQUITECTURA.md) |
 | El checklist de tu tipo de tarea | [documentacion/flujos-de-trabajo.md](documentacion/flujos-de-trabajo.md) |
 | Qué revisa cada gate | [documentacion/verificacion.md](documentacion/verificacion.md) |
@@ -134,3 +135,7 @@ En **Settings → Pages**, elegir `Deploy from a branch`, rama `main`, carpeta
 
 Los datos salen de fuentes públicas y pueden tener errores o desactualizarse.
 Antes de una compra grande, confirmá en el link de la fuente que trae cada promo.
+
+## Licencia
+
+MIT. Ver [LICENSE](LICENSE).
