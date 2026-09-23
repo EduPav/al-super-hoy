@@ -59,7 +59,7 @@ class Zona:
         self.desconocidos: dict[str, int] = {}
 
     @classmethod
-    def cargar(cls, ruta: Path | None = None) -> "Zona":
+    def cargar(cls, ruta: Path | None = None) -> Zona:
         datos = yaml.safe_load((ruta or REGISTRO).read_text(encoding="utf-8")) or {}
         comercios = []
         for entrada in datos.get("comercios") or []:

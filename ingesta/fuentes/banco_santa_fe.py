@@ -18,13 +18,13 @@ import requests
 from bs4 import BeautifulSoup
 
 from ..modelo import CUOTAS, DESCUENTO, DIAS, REINTEGRO, Promo, parse_fecha, sin_acentos
+from . import ErrorFuente, Sesion
+from . import sesion as abrir_sesion
 
+NOMBRE = "Banco Santa Fe"
 URL = "https://www.bancosantafe.com.ar/beneficios-supermercados"
 
-CABECERAS = {
-    "User-Agent": "al-super-hoy/1.0 (uso personal; lector de promociones publicas)",
-    "Accept": "text/html",
-}
+__all__ = ["NOMBRE", "URL", "ErrorFuente", "listar"]
 
 NOMBRE_A_LETRA = {
     "lunes": "L",
@@ -37,10 +37,6 @@ NOMBRE_A_LETRA = {
     "domingos": "D",
     "domingo": "D",
 }
-
-
-class ErrorFuente(Exception):
-    pass
 
 
 def _dias(texto: str) -> list[str]:
@@ -86,11 +82,10 @@ def _parsear_titulo(titulo: str) -> tuple[str, float | None, str, list[str]]:
     return tipo, valor, comercio or limpio, medios
 
 
-def _pagina(sesion: requests.Session, skip: int) -> list[tuple[str, str]]:
+def _pagina(sesion: Sesion, skip: int) -> list[tuple[str, str]]:
     """Devuelve los pares (titulo, detalle) de una pagina del listado."""
     try:
-        r = sesion.get(URL, params={"skip": skip} if skip else None,
-                       headers=CABECERAS, timeout=30)
+        r = sesion.get(URL, params={"skip": skip} if skip else None, timeout=30)
         r.raise_for_status()
         r.encoding = "utf-8"
     except requests.RequestException as exc:
@@ -107,14 +102,14 @@ def _pagina(sesion: requests.Session, skip: int) -> list[tuple[str, str]]:
     return filas
 
 
-def listar(sesion: requests.Session | None = None, max_paginas: int = 8) -> list[Promo]:
+def listar(sesion: Sesion | None = None, max_paginas: int = 8) -> list[Promo]:
     """Recorre el listado completo.
 
     La paginacion es por `skip` en pasos de 12. Pasado el final la pagina repite
     el ultimo lote en vez de devolver vacio, asi que cortamos cuando no aparecen
     titulos nuevos.
     """
-    sesion = sesion or requests.Session()
+    sesion = sesion or abrir_sesion()
     promos: list[Promo] = []
     vistos: set[str] = set()
     fallo_inicial: ErrorFuente | None = None
@@ -148,10 +143,10 @@ def listar(sesion: requests.Session | None = None, max_paginas: int = 8) -> list
                     dias=_dias(texto),
                     desde=desde,
                     hasta=hasta,
-                    bancos=["Banco Santa Fe"],
+                    bancos=[NOMBRE],
                     modalidad=medios,
                     titulo=titulo,
-                    fuente="Banco Santa Fe",
+                    fuente=NOMBRE,
                     url=URL,
                 )
             )

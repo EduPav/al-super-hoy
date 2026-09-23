@@ -22,10 +22,9 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
-import requests
-
-from .fuentes import banco_santa_fe, modo
-from .modelo import Promo, ahora_iso, clave
+from .fuentes import ErrorFuente, Sesion, banco_santa_fe, modo
+from .fuentes import sesion as abrir_sesion
+from .modelo import DIAS, Promo, ahora_iso
 from .zona import Zona
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -44,11 +43,11 @@ class Fuente:
     error: str = ""
 
 
-def _leer_modo(zona: Zona, sesion: requests.Session) -> Fuente:
+def _leer_modo(zona: Zona, sesion: Sesion) -> Fuente:
     try:
         cards = modo.listar(sesion)
-    except modo.ErrorFuente as exc:
-        return Fuente("MODO", ok=False, error=str(exc))
+    except ErrorFuente as exc:
+        return Fuente(modo.NOMBRE, ok=False, error=str(exc))
 
     # Primero filtramos con lo que ya trae el listado y despues pedimos el
     # detalle. Asi bajamos de ~380 paginas de detalle a un par de docenas.
@@ -63,15 +62,15 @@ def _leer_modo(zona: Zona, sesion: requests.Session) -> Fuente:
         completa.comercio = preliminar.comercio
         completa.comercio_clave = preliminar.comercio_clave
         promos.append(completa)
-    return Fuente("MODO", promos=promos)
+    return Fuente(modo.NOMBRE, promos=promos)
 
 
-def _leer_banco_santa_fe(zona: Zona, sesion: requests.Session) -> Fuente:
+def _leer_banco_santa_fe(zona: Zona, sesion: Sesion) -> Fuente:
     try:
         promos = banco_santa_fe.listar(sesion)
-    except banco_santa_fe.ErrorFuente as exc:
-        return Fuente("Banco Santa Fe", ok=False, error=str(exc))
-    return Fuente("Banco Santa Fe", promos=zona.filtrar(promos))
+    except ErrorFuente as exc:
+        return Fuente(banco_santa_fe.NOMBRE, ok=False, error=str(exc))
+    return Fuente(banco_santa_fe.NOMBRE, promos=zona.filtrar(promos))
 
 
 def _llave_fusion(p: Promo) -> tuple:
@@ -154,7 +153,7 @@ def _novedades(promos: list[dict]) -> dict:
 
 def main() -> int:
     zona = Zona.cargar()
-    sesion = requests.Session()
+    sesion = abrir_sesion()
 
     fuentes = [_leer_modo(zona, sesion), _leer_banco_santa_fe(zona, sesion)]
     promos = fusionar(fuentes)
@@ -164,7 +163,7 @@ def main() -> int:
         p["aplica_hoy"] = (
             (not p.get("desde") or p["desde"] <= hoy.isoformat())
             and (not p.get("hasta") or p["hasta"] >= hoy.isoformat())
-            and ["L", "M", "X", "J", "V", "S", "D"][hoy.weekday()] in p["dias"]
+            and DIAS[hoy.weekday()] in p["dias"]
         )
     promos.sort(key=lambda p: (-(p.get("valor") or 0), p["comercio"]))
 
