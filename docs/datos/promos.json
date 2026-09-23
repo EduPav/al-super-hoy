@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-18T00:28:46+00:00",
+ "generado": "2026-09-23T14:11:05+00:00",
  "zona": "Santa Fe capital",
  "promos": [
   {
@@ -53,7 +53,7 @@
      "url": "https://www.modo.com.ar/promos/30-credicoop-changomas-oct25"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Coto",
@@ -91,7 +91,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "La Gallega",
@@ -276,7 +276,7 @@
    "acumulable": true,
    "titulo": "25% en ChangoMás",
    "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-idt-julio26",
+   "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-ps-julio26",
    "comercio_clave": "changomas",
    "id": "d22731d94134",
    "dias_nombre": [
@@ -286,11 +286,11 @@
    "fuentes": [
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-idt-julio26"
+     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-ps-julio26"
     },
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-ps-julio26"
+     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-idt-julio26"
     }
    ],
    "aplica_hoy": false
@@ -429,6 +429,48 @@
      "url": "https://www.modo.com.ar/promos/25-supermercadosdia-credicoop-jun26"
     }
    ],
+   "aplica_hoy": true
+  },
+  {
+   "comercio": "La Gallega",
+   "tipo": "reintegro",
+   "valor": 25.0,
+   "tope": 20000,
+   "tope_periodo": "mes",
+   "tope_por": "usuario",
+   "compra_minima": null,
+   "limites_conocidos": true,
+   "dias": [
+    "M"
+   ],
+   "desde": "2026-02-01",
+   "hasta": "2026-12-01",
+   "bancos": [
+    "Banco Hipotecario"
+   ],
+   "medios_debito": [
+    "visa"
+   ],
+   "medios_credito": [],
+   "modalidad": [
+    "presencial"
+   ],
+   "acumulable": true,
+   "titulo": "25% en La Gallega",
+   "fuente": "MODO",
+   "url": "https://www.modo.com.ar/promos/25-hipotecario-lagallega-feb26",
+   "comercio_clave": "la gallega",
+   "id": "0d65f5ca45f8",
+   "dias_nombre": [
+    "martes"
+   ],
+   "gasto_optimo": 80000,
+   "fuentes": [
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/25-hipotecario-lagallega-feb26"
+    }
+   ],
    "aplica_hoy": false
   },
   {
@@ -480,48 +522,6 @@
     {
      "nombre": "MODO",
      "url": "https://www.modo.com.ar/promos/lagallega-jul26"
-    }
-   ],
-   "aplica_hoy": false
-  },
-  {
-   "comercio": "La Gallega",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-02-01",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Banco Hipotecario"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "25% en La Gallega",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-hipotecario-lagallega-feb26",
-   "comercio_clave": "la gallega",
-   "id": "0d65f5ca45f8",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 80000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-hipotecario-lagallega-feb26"
     }
    ],
    "aplica_hoy": false
@@ -633,7 +633,49 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
+  },
+  {
+   "comercio": "Vea",
+   "tipo": "reintegro",
+   "valor": 25.0,
+   "tope": 20000,
+   "tope_periodo": "mes",
+   "tope_por": "usuario",
+   "compra_minima": null,
+   "limites_conocidos": true,
+   "dias": [
+    "M"
+   ],
+   "desde": "2026-09-01",
+   "hasta": "2026-12-01",
+   "bancos": [
+    "Hipotecario"
+   ],
+   "medios_debito": [
+    "visa"
+   ],
+   "medios_credito": [],
+   "modalidad": [
+    "presencial"
+   ],
+   "acumulable": true,
+   "titulo": "Vea 25% Off los martes con tarjeta de débito",
+   "fuente": "MODO",
+   "url": "https://www.modo.com.ar/promos/25-vea-hipotecario-sep26",
+   "comercio_clave": "vea",
+   "id": "bfa34b7b16c3",
+   "dias_nombre": [
+    "martes"
+   ],
+   "gasto_optimo": 80000,
+   "fuentes": [
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/25-vea-hipotecario-sep26"
+    }
+   ],
+   "aplica_hoy": false
   },
   {
    "comercio": "Vea",
@@ -921,7 +963,7 @@
      "url": "https://www.modo.com.ar/promos/20-changomas-icbc-sep26"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "ChangoMás",
@@ -1164,7 +1206,7 @@
      "url": "https://www.modo.com.ar/promos/supermercados-kilbel-agos26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Kilbel",
@@ -1256,7 +1298,7 @@
      "url": "https://www.modo.com.ar/promos/20-en-el-tunel-2609-774"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Super El Túnel",
@@ -1511,6 +1553,64 @@
    "aplica_hoy": false
   },
   {
+   "comercio": "Carrefour",
+   "tipo": "reintegro",
+   "valor": 10.0,
+   "tope": 10000,
+   "tope_periodo": "mes",
+   "tope_por": "usuario",
+   "compra_minima": 15000,
+   "limites_conocidos": true,
+   "dias": [
+    "X"
+   ],
+   "desde": "2026-09-23",
+   "hasta": "2026-10-01",
+   "bancos": [
+    "Santander"
+   ],
+   "medios_debito": [
+    "cabal",
+    "dinners_club",
+    "maestro",
+    "master",
+    "visa"
+   ],
+   "medios_credito": [
+    "american_express",
+    "cabal",
+    "confiable",
+    "dinners_club",
+    "maestro",
+    "master",
+    "visa"
+   ],
+   "modalidad": [
+    "presencial"
+   ],
+   "acumulable": true,
+   "titulo": "10% en Carrefour Hiper, Market y Express",
+   "fuente": "MODO",
+   "url": "https://www.modo.com.ar/promos/10off-carrefour-santander-sep26",
+   "comercio_clave": "carrefour",
+   "id": "c3a3edd4d9cc",
+   "dias_nombre": [
+    "miercoles"
+   ],
+   "gasto_optimo": 100000,
+   "fuentes": [
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/10off-carrefour-santander-sep26"
+    },
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/carrefour-hiper-market-express-sep26"
+    }
+   ],
+   "aplica_hoy": true
+  },
+  {
    "comercio": "Coto",
    "tipo": "reintegro",
    "valor": 10.0,
@@ -1565,6 +1665,52 @@
    "tipo": "reintegro",
    "valor": 10.0,
    "tope": 10000,
+   "tope_periodo": null,
+   "tope_por": "usuario",
+   "compra_minima": null,
+   "limites_conocidos": true,
+   "dias": [
+    "V",
+    "S"
+   ],
+   "desde": "2026-09-18",
+   "hasta": "2026-10-12",
+   "bancos": [
+    "Supervielle"
+   ],
+   "medios_debito": [],
+   "medios_credito": [
+    "master"
+   ],
+   "modalidad": [
+    "presencial",
+    "online",
+    "NFC"
+   ],
+   "acumulable": true,
+   "titulo": "DIA",
+   "fuente": "MODO",
+   "url": "https://www.modo.com.ar/promos/10-dia-master-supervielle-sept26",
+   "comercio_clave": "dia",
+   "id": "b854595556ec",
+   "dias_nombre": [
+    "viernes",
+    "sabado"
+   ],
+   "gasto_optimo": 100000,
+   "fuentes": [
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/10-dia-master-supervielle-sept26"
+    }
+   ],
+   "aplica_hoy": false
+  },
+  {
+   "comercio": "Día",
+   "tipo": "reintegro",
+   "valor": 10.0,
+   "tope": 10000,
    "tope_periodo": "mes",
    "tope_por": "usuario",
    "compra_minima": null,
@@ -1602,6 +1748,49 @@
     {
      "nombre": "MODO",
      "url": "https://www.modo.com.ar/promos/2608-macro-supermercadoamistad-dia-10"
+    }
+   ],
+   "aplica_hoy": true
+  },
+  {
+   "comercio": "Vea",
+   "tipo": "reintegro",
+   "valor": 10.0,
+   "tope": 10000,
+   "tope_periodo": null,
+   "tope_por": "usuario",
+   "compra_minima": null,
+   "limites_conocidos": true,
+   "dias": [
+    "V"
+   ],
+   "desde": "2026-09-18",
+   "hasta": "2026-10-12",
+   "bancos": [
+    "Supervielle"
+   ],
+   "medios_debito": [],
+   "medios_credito": [
+    "master"
+   ],
+   "modalidad": [
+    "presencial",
+    "online"
+   ],
+   "acumulable": true,
+   "titulo": "Vea",
+   "fuente": "MODO",
+   "url": "https://www.modo.com.ar/promos/10-vea-master-supervielle-sept26",
+   "comercio_clave": "vea",
+   "id": "3a62e8b99ea4",
+   "dias_nombre": [
+    "viernes"
+   ],
+   "gasto_optimo": 100000,
+   "fuentes": [
+    {
+     "nombre": "MODO",
+     "url": "https://www.modo.com.ar/promos/10-vea-master-supervielle-sept26"
     }
    ],
    "aplica_hoy": false
@@ -1699,6 +1888,7 @@
  ],
  "comercios": [
   "Alvear Supermercados",
+  "Carrefour",
   "ChangoMás",
   "Coto",
   "Dar",
@@ -1737,7 +1927,7 @@
    "nombre": "MODO",
    "ok": true,
    "error": "",
-   "promos": 32
+   "promos": 37
   },
   {
    "nombre": "Banco Santa Fe",
@@ -1771,6 +1961,10 @@
    },
    {
     "comercio": "AUTOSERVICIO TINTI",
+    "promos": 3
+   },
+   {
+    "comercio": "Aiello",
     "promos": 3
    },
    {
@@ -1846,10 +2040,6 @@
     "promos": 3
    },
    {
-    "comercio": "Mercado Municipal",
-    "promos": 3
-   },
-   {
     "comercio": "Modo Market",
     "promos": 3
    },
@@ -1863,6 +2053,10 @@
    },
    {
     "comercio": "POLLERIA LOS DOS HERMANITOS",
+    "promos": 3
+   },
+   {
+    "comercio": "Piazze Mayorista",
     "promos": 3
    },
    {
@@ -1904,17 +2098,18 @@
    {
     "comercio": "TINA MAYORISTA",
     "promos": 3
-   },
-   {
-    "comercio": "TRELEW",
-    "promos": 3
    }
   ]
  },
  "novedades": {
-  "nuevas": [],
+  "nuevas": [
+   "bfa34b7b16c3",
+   "c3a3edd4d9cc",
+   "b854595556ec",
+   "3a62e8b99ea4"
+  ],
   "terminadas": [],
   "cambios": [],
-  "comparado_con": "2026-09-18T00:28:30+00:00"
+  "comparado_con": "2026-09-18T00:28:46+00:00"
  }
 }
