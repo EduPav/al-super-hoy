@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-23T14:11:05+00:00",
+ "generado": "2026-09-24T14:09:17+00:00",
  "zona": "Santa Fe capital",
  "promos": [
   {
@@ -53,7 +53,7 @@
      "url": "https://www.modo.com.ar/promos/30-credicoop-changomas-oct25"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Coto",
@@ -91,7 +91,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "La Gallega",
@@ -429,7 +429,7 @@
      "url": "https://www.modo.com.ar/promos/25-supermercadosdia-credicoop-jun26"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "La Gallega",
@@ -633,7 +633,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Vea",
@@ -963,7 +963,7 @@
      "url": "https://www.modo.com.ar/promos/20-changomas-icbc-sep26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "ChangoMás",
@@ -1010,8 +1010,8 @@
    "tipo": "reintegro",
    "valor": 20.0,
    "tope": null,
-   "tope_periodo": "dia",
-   "tope_por": "banco",
+   "tope_periodo": null,
+   "tope_por": null,
    "compra_minima": null,
    "limites_conocidos": true,
    "dias": [
@@ -1206,7 +1206,7 @@
      "url": "https://www.modo.com.ar/promos/supermercados-kilbel-agos26"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Kilbel",
@@ -1298,7 +1298,7 @@
      "url": "https://www.modo.com.ar/promos/20-en-el-tunel-2609-774"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Super El Túnel",
@@ -1608,14 +1608,14 @@
      "url": "https://www.modo.com.ar/promos/carrefour-hiper-market-express-sep26"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Coto",
    "tipo": "reintegro",
    "valor": 10.0,
    "tope": 10000,
-   "tope_periodo": "dia",
+   "tope_periodo": null,
    "tope_por": "usuario",
    "compra_minima": null,
    "limites_conocidos": true,
@@ -1750,7 +1750,7 @@
      "url": "https://www.modo.com.ar/promos/2608-macro-supermercadoamistad-dia-10"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Vea",
@@ -1800,8 +1800,8 @@
    "tipo": "reintegro",
    "valor": 5.0,
    "tope": null,
-   "tope_periodo": "dia",
-   "tope_por": "banco",
+   "tope_periodo": null,
+   "tope_por": null,
    "compra_minima": null,
    "limites_conocidos": true,
    "dias": [
@@ -2102,14 +2102,9 @@
   ]
  },
  "novedades": {
-  "nuevas": [
-   "bfa34b7b16c3",
-   "c3a3edd4d9cc",
-   "b854595556ec",
-   "3a62e8b99ea4"
-  ],
+  "nuevas": [],
   "terminadas": [],
   "cambios": [],
-  "comparado_con": "2026-09-18T00:28:46+00:00"
+  "comparado_con": "2026-09-23T14:11:05+00:00"
  }
 }
