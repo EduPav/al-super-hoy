@@ -1,12 +1,12 @@
 {
- "generado": "2026-09-24T14:09:17+00:00",
+ "generado": "2026-09-25T14:32:54+00:00",
  "zona": "Santa Fe capital",
  "promos": [
   {
    "comercio": "ChangoMás",
    "tipo": "reintegro",
    "valor": 30.0,
-   "tope": 15000,
+   "tope": 9000,
    "tope_periodo": "semana",
    "tope_por": "usuario",
    "compra_minima": null,
@@ -14,46 +14,38 @@
    "dias": [
     "J"
    ],
-   "desde": "2026-09-03",
-   "hasta": "2026-09-25",
+   "desde": "2025-10-01",
+   "hasta": "2026-10-01",
    "bancos": [
-    "Credicoop",
-    "ICBC"
+    "Credicoop"
    ],
    "medios_debito": [
-    "cabal",
-    "visa"
+    "cabal"
    ],
    "medios_credito": [
-    "cabal",
-    "master",
-    "visa"
+    "cabal"
    ],
    "modalidad": [
-    "online",
-    "presencial"
+    "presencial",
+    "online"
    ],
    "acumulable": true,
-   "titulo": "CHANGO ICBC SEP-MODO SUPP",
+   "titulo": "30% en ChangoMás",
    "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/30-changomas-icbc-sep26",
+   "url": "https://www.modo.com.ar/promos/30-credicoop-changomas-oct25",
    "comercio_clave": "changomas",
-   "id": "349e46d2fa45",
+   "id": "b35e3888ba6c",
    "dias_nombre": [
     "jueves"
    ],
-   "gasto_optimo": 50000,
+   "gasto_optimo": 30000,
    "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/30-changomas-icbc-sep26"
-    },
     {
      "nombre": "MODO",
      "url": "https://www.modo.com.ar/promos/30-credicoop-changomas-oct25"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Coto",
@@ -91,7 +83,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "La Gallega",
@@ -129,7 +121,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Alvear Supermercados",
@@ -276,7 +268,7 @@
    "acumulable": true,
    "titulo": "25% en ChangoMás",
    "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-ps-julio26",
+   "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-idt-julio26",
    "comercio_clave": "changomas",
    "id": "d22731d94134",
    "dias_nombre": [
@@ -286,11 +278,11 @@
    "fuentes": [
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-ps-julio26"
+     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-idt-julio26"
     },
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-idt-julio26"
+     "url": "https://www.modo.com.ar/promos/25-changomas-supervielle-ps-julio26"
     }
    ],
    "aplica_hoy": false
@@ -399,7 +391,7 @@
     "X"
    ],
    "desde": "2026-06-03",
-   "hasta": "2026-10-01",
+   "hasta": "2027-01-01",
    "bancos": [
     "Credicoop"
    ],
@@ -633,48 +625,6 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": true
-  },
-  {
-   "comercio": "Vea",
-   "tipo": "reintegro",
-   "valor": 25.0,
-   "tope": 20000,
-   "tope_periodo": "mes",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "M"
-   ],
-   "desde": "2026-09-01",
-   "hasta": "2026-12-01",
-   "bancos": [
-    "Hipotecario"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [],
-   "modalidad": [
-    "presencial"
-   ],
-   "acumulable": true,
-   "titulo": "Vea 25% Off los martes con tarjeta de débito",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/25-vea-hipotecario-sep26",
-   "comercio_clave": "vea",
-   "id": "bfa34b7b16c3",
-   "dias_nombre": [
-    "martes"
-   ],
-   "gasto_optimo": 80000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/25-vea-hipotecario-sep26"
-    }
-   ],
    "aplica_hoy": false
   },
   {
@@ -724,7 +674,7 @@
      "url": "https://www.modo.com.ar/promos/25-vea-ps-supervielle-sep26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Alvear Supermercados",
@@ -775,7 +725,7 @@
      "url": "https://www.modo.com.ar/promos/20-comafi-supermercadosalvear-ago26"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Alvear Supermercados",
@@ -813,7 +763,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "ChangoMás",
@@ -918,52 +868,6 @@
     }
    ],
    "aplica_hoy": false
-  },
-  {
-   "comercio": "ChangoMás",
-   "tipo": "reintegro",
-   "valor": 20.0,
-   "tope": 10000,
-   "tope_periodo": "semana",
-   "tope_por": "usuario",
-   "compra_minima": null,
-   "limites_conocidos": true,
-   "dias": [
-    "J"
-   ],
-   "desde": "2026-09-03",
-   "hasta": "2026-09-25",
-   "bancos": [
-    "ICBC"
-   ],
-   "medios_debito": [
-    "visa"
-   ],
-   "medios_credito": [
-    "visa",
-    "master"
-   ],
-   "modalidad": [
-    "presencial",
-    "online"
-   ],
-   "acumulable": true,
-   "titulo": "CHANGO ICBC SEP-MODO SNOP",
-   "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/20-changomas-icbc-sep26",
-   "comercio_clave": "changomas",
-   "id": "5eaaef8f9b22",
-   "dias_nombre": [
-    "jueves"
-   ],
-   "gasto_optimo": 50000,
-   "fuentes": [
-    {
-     "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/20-changomas-icbc-sep26"
-    }
-   ],
-   "aplica_hoy": true
   },
   {
    "comercio": "ChangoMás",
@@ -1110,7 +1014,7 @@
      "url": "https://www.modo.com.ar/promos/superdia-septiembre26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Día",
@@ -1152,7 +1056,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Kilbel",
@@ -1246,7 +1150,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Super El Túnel",
@@ -1298,7 +1202,7 @@
      "url": "https://www.modo.com.ar/promos/20-en-el-tunel-2609-774"
     }
    ],
-   "aplica_hoy": true
+   "aplica_hoy": false
   },
   {
    "comercio": "Super El Túnel",
@@ -1336,7 +1240,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Vea",
@@ -1395,7 +1299,7 @@
      "url": "https://www.modo.com.ar/promos/20-vea-rm-supervielle-sep26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Vea",
@@ -1439,7 +1343,7 @@
      "url": "https://www.bancosantafe.com.ar/beneficios-supermercados"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Dar",
@@ -1558,7 +1462,7 @@
    "valor": 10.0,
    "tope": 10000,
    "tope_periodo": "mes",
-   "tope_por": "usuario",
+   "tope_por": "banco",
    "compra_minima": 15000,
    "limites_conocidos": true,
    "dias": [
@@ -1591,9 +1495,9 @@
    "acumulable": true,
    "titulo": "10% en Carrefour Hiper, Market y Express",
    "fuente": "MODO",
-   "url": "https://www.modo.com.ar/promos/10off-carrefour-santander-sep26",
+   "url": "https://www.modo.com.ar/promos/carrefour-hiper-market-express-sep26",
    "comercio_clave": "carrefour",
-   "id": "c3a3edd4d9cc",
+   "id": "076e6864a00a",
    "dias_nombre": [
     "miercoles"
    ],
@@ -1601,11 +1505,11 @@
    "fuentes": [
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/10off-carrefour-santander-sep26"
+     "url": "https://www.modo.com.ar/promos/carrefour-hiper-market-express-sep26"
     },
     {
      "nombre": "MODO",
-     "url": "https://www.modo.com.ar/promos/carrefour-hiper-market-express-sep26"
+     "url": "https://www.modo.com.ar/promos/10off-carrefour-santander-sep26"
     }
    ],
    "aplica_hoy": false
@@ -1704,7 +1608,7 @@
      "url": "https://www.modo.com.ar/promos/10-dia-master-supervielle-sept26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Día",
@@ -1793,7 +1697,7 @@
      "url": "https://www.modo.com.ar/promos/10-vea-master-supervielle-sept26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   },
   {
    "comercio": "Coto",
@@ -1883,7 +1787,7 @@
      "url": "https://www.modo.com.ar/promos/5-vea-supervielle-sep26"
     }
    ],
-   "aplica_hoy": false
+   "aplica_hoy": true
   }
  ],
  "comercios": [
@@ -1927,7 +1831,7 @@
    "nombre": "MODO",
    "ok": true,
    "error": "",
-   "promos": 37
+   "promos": 34
   },
   {
    "nombre": "Banco Santa Fe",
@@ -1961,10 +1865,6 @@
    },
    {
     "comercio": "AUTOSERVICIO TINTI",
-    "promos": 3
-   },
-   {
-    "comercio": "Aiello",
     "promos": 3
    },
    {
@@ -2040,7 +1940,7 @@
     "promos": 3
    },
    {
-    "comercio": "Modo Market",
+    "comercio": "Mercado Municipal",
     "promos": 3
    },
    {
@@ -2088,6 +1988,10 @@
     "promos": 3
    },
    {
+    "comercio": "SUPERMERCADOS CARNICERIAS",
+    "promos": 3
+   },
+   {
     "comercio": "Supermercado Europa",
     "promos": 3
    },
@@ -2102,9 +2006,41 @@
   ]
  },
  "novedades": {
-  "nuevas": [],
-  "terminadas": [],
-  "cambios": [],
-  "comparado_con": "2026-09-23T14:11:05+00:00"
+  "nuevas": [
+   "b35e3888ba6c",
+   "076e6864a00a"
+  ],
+  "terminadas": [
+   {
+    "id": "349e46d2fa45",
+    "comercio": "ChangoMás",
+    "titulo": "CHANGO ICBC SEP-MODO SUPP"
+   },
+   {
+    "id": "bfa34b7b16c3",
+    "comercio": "Vea",
+    "titulo": "Vea 25% Off los martes con tarjeta de débito"
+   },
+   {
+    "id": "5eaaef8f9b22",
+    "comercio": "ChangoMás",
+    "titulo": "CHANGO ICBC SEP-MODO SNOP"
+   },
+   {
+    "id": "c3a3edd4d9cc",
+    "comercio": "Carrefour",
+    "titulo": "10% en Carrefour Hiper, Market y Express"
+   }
+  ],
+  "cambios": [
+   {
+    "id": "11c1f279e60f",
+    "comercio": "Día",
+    "campo": "vigencia",
+    "antes": "2026-10-01",
+    "ahora": "2027-01-01"
+   }
+  ],
+  "comparado_con": "2026-09-24T14:09:17+00:00"
  }
 }
